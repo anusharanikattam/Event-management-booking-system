@@ -1,0 +1,9 @@
+function bookEvent(eventName) {
+localStorage.setItem("selectedEvent", eventName);
+window.location.href = "booking.html";
+}
+
+function submitBooking(e) {
+e.preventDefault();
+alert("Booking Confirmed!");
+}
